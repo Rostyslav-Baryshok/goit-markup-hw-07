@@ -1,11 +1,11 @@
-.social-networks-list {
+.social-networks {
   display: flex;
   justify-content: space-between;
 }
-.social-networks-item:not(:last-child) {
+.social-networks__item:not(:last-child) {
   margin-right: 10px;
 }
-.social-networks-link {
+.social-networks__link {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -17,14 +17,6 @@
   transition: background-color 250ms $timing-function,
     fill 250ms $timing-function;
 
-  &:hover,
-  &:focus {
-    fill: $social-networks-color;
-    background-color: $accent-color;
-  }
-}
-
-.footer-social-media-link {
   &:hover,
   &:focus {
     fill: $social-networks-color;

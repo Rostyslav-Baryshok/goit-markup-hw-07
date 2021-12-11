@@ -1,4 +1,4 @@
-.doing {
+.section-doing {
   padding-top: 0px;
 }
 .second-level-headings {
@@ -10,15 +10,15 @@
   margin-bottom: 50px;
   color: $secondary-text-color;
 }
-.doing-item {
-  flex-basis: calc((100% - 90px) / 3);
-  margin-top: 30px;
-  margin-left: 30px;
-}
-.doing-list {
+.doing {
   display: flex;
   margin-top: -30px;
   margin-left: -30px;
+}
+.doing__item {
+  flex-basis: calc((100% - 90px) / 3);
+  margin-top: 30px;
+  margin-left: 30px;
 }
 .product-thumb {
   position: relative;

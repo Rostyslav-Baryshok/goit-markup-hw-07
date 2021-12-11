@@ -1,4 +1,4 @@
-.feature-title {
+.feature__title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -7,24 +7,24 @@
   text-transform: uppercase;
   color: $secondary-text-color;
 }
-.feature-list {
+.feature {
   display: flex;
   margin-top: -30px;
   margin-left: -30px;
 }
-.feature-item {
+.feature__item {
   margin-top: 30px;
   margin-left: 30px;
   flex-basis: calc((100% - 120px) / 4);
 }
-.feature-description {
+.feature__description {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: $main-text-color;
 }
-.feature-svg-content {
+.feature__svg-content {
   display: flex;
   justify-content: center;
   padding-top: 25px;

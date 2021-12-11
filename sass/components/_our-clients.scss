@@ -1,4 +1,4 @@
-.our-clients {
+.our-clients-section {
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -12,10 +12,10 @@
   color: $secondary-text-color;
   margin-bottom: 50px;
 }
-.our-clients-item:not(:last-child) {
+.our-clients__item:not(:last-child) {
   margin-right: 30px;
 }
-.our-clients-link {
+.our-clients__link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -33,7 +33,7 @@
     color: $accent-color;
   }
 }
-.our-clients-img {
+.our-clients__img {
   fill: currentColor;
   transition: color 250ms $timing-function;
 
