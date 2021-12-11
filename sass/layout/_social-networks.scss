@@ -13,21 +13,21 @@
   height: 44px;
   border-radius: 50%;
   background-color: transparent;
-  fill: var(--fill-color-svg);
-  transition: background-color 250ms var(--timing-function),
-    fill 250ms var(--timing-function);
+  fill: $fill-color-svg;
+  transition: background-color 250ms $timing-function,
+    fill 250ms $timing-function;
 
   &:hover,
   &:focus {
-    fill: var(--social-networks-color);
-    background-color: var(--accent-color);
+    fill: $social-networks-color;
+    background-color: $accent-color;
   }
 }
 
 .footer-social-media-link {
   &:hover,
   &:focus {
-    fill: var(--social-networks-color);
-    background-color: var(--accent-color);
+    fill: $social-networks-color;
+    background-color: $accent-color;
   }
 }

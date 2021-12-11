@@ -5,7 +5,7 @@
   letter-spacing: 0.03em;
   margin-bottom: 10px;
   text-transform: uppercase;
-  color: var(--secondary-text-color);
+  color: $secondary-text-color;
 }
 .feature-list {
   display: flex;
@@ -22,7 +22,7 @@
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: var(--main-text-color);
+  color: $main-text-color;
 }
 .feature-svg-content {
   display: flex;
@@ -30,5 +30,5 @@
   padding-top: 25px;
   padding-bottom: 25px;
   margin-bottom: 30px;
-  background-color: var(--our-tea-background);
+  background-color: $our-tea-background;
 }

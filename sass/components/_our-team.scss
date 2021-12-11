@@ -5,10 +5,10 @@
   margin-bottom: 10px;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--secondary-text-color);
+  color: $secondary-text-color;
 }
 .our-team-section {
-  background: var(--our-tea-background);
+  background: $our-tea-background;
 }
 .team-list-item {
   flex-basis: calc((100% - 120px) / 4);
@@ -23,7 +23,7 @@
   padding-bottom: 30px;
   padding-left: 32px;
   padding-right: 32px;
-  background-color: var(--descript-title-color);
+  background-color: $descript-title-color;
   border-radius: 0px 0px 4px 4px;
 }
 .profession {
@@ -33,5 +33,5 @@
   text-align: center;
   margin-bottom: 16px;
   letter-spacing: 0.03em;
-  color: var(--main-text-color);
+  color: $main-text-color;
 }

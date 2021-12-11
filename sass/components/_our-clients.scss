@@ -9,7 +9,7 @@
   line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--secondary-text-color);
+  color: $secondary-text-color;
   margin-bottom: 50px;
 }
 .our-clients-item:not(:last-child) {
@@ -23,22 +23,22 @@
   padding-top: 16px;
   padding-bottom: 16px;
   border-radius: 3px;
-  border: 1px solid var(--fill-color-svg);
-  color: var(--fill-color-svg);
-  transition: border 250ms var(--timing-function);
+  border: 1px solid $fill-color-svg;
+  color: $fill-color-svg;
+  transition: border 250ms $timing-function;
 
   &:hover,
   &:focus {
-    border-color: var(--accent-color);
-    color: var(--accent-color);
+    border-color: $accent-color;
+    color: $accent-color;
   }
 }
 .our-clients-img {
   fill: currentColor;
-  transition: color 250ms var(--timing-function);
+  transition: color 250ms $timing-function;
 
   &:hover,
   &:focus {
-    color: var(--accent-color);
+    color: $accent-color;
   }
 }

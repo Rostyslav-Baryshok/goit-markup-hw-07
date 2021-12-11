@@ -8,7 +8,7 @@
   text-align: center;
   letter-spacing: 0.03em;
   margin-bottom: 50px;
-  color: var(--secondary-text-color);
+  color: $secondary-text-color;
 }
 .doing-item {
   flex-basis: calc((100% - 90px) / 3);
@@ -38,5 +38,5 @@
   padding-top: 27px;
   padding-bottom: 27px;
   text-transform: uppercase;
-  color: var(--descript-title-color);
+  color: $descript-title-color;
 }

@@ -443,9 +443,6 @@ body {
   padding: 63px 24px;
   color: var(--descript-title-color);
 }
-
-/* Portfolio cards */
-
 .portfolio-item-title {
   font-weight: 700;
   font-size: 18px;
