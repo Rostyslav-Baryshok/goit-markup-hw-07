@@ -1,9 +1,10 @@
 .social-networks {
   display: flex;
   justify-content: space-between;
-}
-.social-networks__item:not(:last-child) {
-  margin-right: 10px;
+
+  .social-networks__item:not(:last-child) {
+    margin-right: 10px;
+  }
 }
 .social-networks__link {
   display: flex;
@@ -22,4 +23,10 @@
     fill: $social-networks-color;
     background-color: $accent-color;
   }
+}
+.social-networks__link--secondary {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.social-networks__img--secondary {
+  fill: $social-networks-color;
 }

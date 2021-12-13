@@ -2,11 +2,17 @@
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 26px;
-  line-height: 1.38;
+  line-height: 1.19;
   margin-right: 90px;
   letter-spacing: 0.03em;
   color: $logo-checkbox-color;
 }
-.blue-logo {
+.logo--secondary {
+  display: block;
+  margin-bottom: 20px;
+  color: $descript-title-color;
+  margin-right: 0;
+}
+.logo__web {
   color: $accent-color;
 }

@@ -1,36 +1,19 @@
 .footer-form {
   margin-left: auto;
 }
-.footer-form-group {
-  display: flex;
-}
-.footer-form__text {
-  text-transform: uppercase;
-  margin-top: 15px;
-  margin-bottom: 20px;
-  margin-left: auto;
-  color: $descript-title-color;
-  font-size: 14px;
-  font-weight: 700;
-  letter-spacing: 0.03em;
-  line-height: 1.14;
-}
-.subscribe-button {
-  display: inline-flex;
-  align-items: center;
-  margin-left: 12px;
-}
 .footer-form-icon {
   fill: currentColor;
   margin-left: 10px;
 }
-.subscribe-input {
+.subscribe__input {
+  display: inline;
   outline: none;
   color: currentColor;
   background-color: transparent;
   padding: 14px 16px;
   border: 1px solid rgba(255, 255, 255, 0.3);
   width: 358px;
+  margin-right: 12px;
   border-radius: 4px;
   font-size: 16px;
   font-weight: 400;

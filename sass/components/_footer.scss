@@ -3,16 +3,6 @@
   padding-top: 60px;
   padding-bottom: 60px;
 }
-.logo-footer {
-  font-family: "Raleway", sans-serif;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
-  display: block;
-  margin-bottom: 20px;
-  color: $accent-color;
-}
 .footer-list {
   font-weight: 400;
   font-size: 14px;
@@ -23,10 +13,6 @@
 }
 .footer-item:not(:last-child) {
   margin-bottom: 9px;
-}
-.color-logo-footer,
-.adress-color {
-  color: $descript-title-color;
 }
 .contact-link-footer,
 .contact-link-footer {
@@ -44,19 +30,17 @@
 .footer-content-address {
   margin-right: 70px;
 }
-.social-networks-text {
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
+.adress-color {
+  color: $descript-title-color;
+}
+.footer-title {
   text-transform: uppercase;
-  color: $social-networks-color;
-  margin-top: 15px;
+  margin-top: 12px;
   margin-bottom: 20px;
-}
-
-.footer-social-link {
-  background-color: rgba(255, 255, 255, 0.1);
-}
-.footer-social-img {
-  fill: $social-networks-color;
+  margin-left: auto;
+  color: $descript-title-color;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  line-height: 1.14;
 }
