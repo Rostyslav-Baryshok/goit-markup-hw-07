@@ -9,12 +9,13 @@
   flex-basis: calc((100% - 90px) / 3);
   background-color: $descript-title-color;
 
-  &:hover .portfolio-card-wrapper {
+  &:hover {
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-    transform: translateY(0);
   }
 }
-
+.portfolio-item:hover .portfolio-card-wrapper {
+  transform: translateY(0);
+}
 .portfolio-text-content {
   border: 1px solid #eeeeee;
   padding: 20px 24px 20px 24px;
@@ -31,10 +32,6 @@
   background-color: rgba(33, 150, 243, 0.9);
   transform: translateY(101%);
   transition: transform 250ms $timing-function;
-
-  &:hover {
-    transform: translateY(0);
-  }
 }
 
 .portfolio-card-description {
