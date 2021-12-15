@@ -10,15 +10,14 @@
   margin-right: 70px;
 }
 .footer__title {
+  @extend %type-text;
+  font-weight: 700;
   text-transform: uppercase;
   margin-top: 12px;
   margin-bottom: 20px;
   margin-left: auto;
   color: $descript-title-color;
-  font-size: 14px;
-  font-weight: 700;
   letter-spacing: 0.03em;
-  line-height: 1.14;
 }
 .footer__form {
   margin-left: auto;

@@ -59,6 +59,17 @@ address {
   overflow: hidden;
 }
 
+.navigation__link, .contact-list__link, .feature__title, .text-overlay__text, .footer__title {
+  font-size: 14px;
+  line-height: 1.14;
+}
+
+.primary-button, .secondary-button {
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+}
+
 .social-networks {
   display: flex;
 }
@@ -112,8 +123,6 @@ address {
 .navigation__link {
   position: relative;
   font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
   padding-top: 32px;
   padding-bottom: 32px;
   letter-spacing: 0.02em;
@@ -158,8 +167,6 @@ address {
   display: flex;
   align-items: center;
   font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
   letter-spacing: 0.02em;
   color: #757575;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -197,8 +204,6 @@ address {
 
 .feature__title {
   font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
   letter-spacing: 0.03em;
   margin-bottom: 10px;
   text-transform: uppercase;
@@ -207,10 +212,10 @@ address {
 
 .feature__description {
   font-weight: 400;
+  color: #757575;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: #757575;
 }
 
 .header {
@@ -333,8 +338,6 @@ address {
 }
 
 .text-overlay__text {
-  font-size: 14px;
-  line-height: 1.14;
   padding-top: 27px;
   padding-bottom: 27px;
   text-transform: uppercase;
@@ -380,12 +383,12 @@ address {
 
 .our-team__profession {
   font-weight: 400;
+  color: #757575;
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
   margin-bottom: 16px;
   letter-spacing: 0.03em;
-  color: #757575;
 }
 
 .primary-button {
@@ -396,12 +399,9 @@ address {
   letter-spacing: 0.06em;
   display: block;
   margin: 0 auto;
-  cursor: pointer;
   color: #ffffff;
   background: #2196f3;
   padding: 10px 32px;
-  border-radius: 4px;
-  border: 0;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
 }
 
@@ -420,9 +420,6 @@ address {
   font-size: 16px;
   line-height: 1.62;
   letter-spacing: 0.03em;
-  cursor: pointer;
-  border-radius: 4px;
-  border: none;
   padding: 6px 22px 6px 22px;
   background: #f5f4fa;
   color: #212121;
@@ -437,6 +434,8 @@ address {
 }
 
 .close-button {
+  display: flex;
+  align-items: center;
   position: absolute;
   width: 30px;
   height: 30px;
@@ -444,8 +443,6 @@ address {
   right: 8px;
   border-radius: 50%;
   cursor: pointer;
-  display: flex;
-  align-items: center;
   justify-content: center;
   background-color: #ffffff;
   border: 1px solid rgba(0, 0, 0, 0.1);
@@ -527,10 +524,10 @@ address {
 
 .portfolio__item-description {
   font-weight: 400;
+  color: #757575;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
-  color: #757575;
 }
 
 .backdrop {
@@ -569,15 +566,13 @@ address {
 }
 
 .footer__title {
+  font-weight: 700;
   text-transform: uppercase;
   margin-top: 12px;
   margin-bottom: 20px;
   margin-left: auto;
   color: #ffffff;
-  font-size: 14px;
-  font-weight: 700;
   letter-spacing: 0.03em;
-  line-height: 1.14;
 }
 
 .footer__form {

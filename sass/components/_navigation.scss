@@ -1,22 +1,18 @@
 .navigation {
-  display: flex;
-  align-items: center;
+  @include position();
   margin-left: 90px;
 }
 .navigation__menu {
-  display: flex;
-  align-items: center;
+  @include position();
 }
 .navigation__item:not(:last-child) {
-  display: flex;
-  align-items: center;
+  @include position();
   margin-right: 50px;
 }
 .navigation__link {
+  @extend %type-text;
   position: relative;
   font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
   padding-top: 32px;
   padding-bottom: 32px;
   letter-spacing: 0.02em;

@@ -52,9 +52,8 @@
 }
 
 .portfolio__item-description {
-  font-weight: 400;
+  @include mass-and-color(400, $main-text-color);
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
-  color: $main-text-color;
 }

@@ -1,0 +1,8 @@
+@mixin position() {
+  display: flex;
+  align-items: center;
+}
+@mixin mass-and-color($weight, $color) {
+  font-weight: 400;
+  color: $main-text-color;
+}

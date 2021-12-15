@@ -1,9 +1,10 @@
 @import "./base/common";
 
 @import "./utils/variables";
+@import "./utils/placeholder";
+@import "./utils/mixin";
 
 @import "./components/social-networks";
-
 @import "./components/navigation";
 @import "./components/contact";
 @import "./components/feature";
@@ -24,6 +25,5 @@
 @import "./components/address";
 @import "./components/label";
 @import "./components/checkbox";
-
 @import "./components/textarea-fild";
 @import "./components/input-fild";

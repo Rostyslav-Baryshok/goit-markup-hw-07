@@ -17,18 +17,16 @@
   background-color: $our-tea-background;
 }
 .feature__title {
+  @extend %type-text;
   font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
   letter-spacing: 0.03em;
   margin-bottom: 10px;
   text-transform: uppercase;
   color: $secondary-text-color;
 }
 .feature__description {
-  font-weight: 400;
+  @include mass-and-color(400, $main-text-color);
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: $main-text-color;
 }
