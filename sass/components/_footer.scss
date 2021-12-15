@@ -3,6 +3,9 @@
   padding-top: 60px;
   padding-bottom: 60px;
 }
+.footer__content {
+  display: flex;
+}
 .footer-list {
   font-weight: 400;
   font-size: 14px;
@@ -24,16 +27,16 @@
     color: $accent-color;
   }
 }
-.footer-content {
-  display: flex;
-}
-.footer-content-address {
+.footer__address-content {
   margin-right: 70px;
 }
-.adress-color {
+.address {
+  margin-top: 20px;
+}
+.address-color {
   color: $descript-title-color;
 }
-.footer-title {
+.footer__title {
   text-transform: uppercase;
   margin-top: 12px;
   margin-bottom: 20px;

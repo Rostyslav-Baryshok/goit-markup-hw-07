@@ -14,7 +14,7 @@
 .doing__thumb {
   position: relative;
 }
-.doing__container {
+.text-overlay {
   bottom: 0;
   left: 0;
   background-color: rgba(47, 48, 58, 0.8);
@@ -23,7 +23,7 @@
   display: flex;
   justify-content: center;
 }
-.doing__content {
+.text-overlay__text {
   font-size: 14px;
   line-height: 1.14;
   padding-top: 27px;

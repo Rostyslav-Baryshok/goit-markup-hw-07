@@ -1,3 +1,8 @@
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--main-text-color);
+}
+
 h1,
 h2,
 h3,
@@ -16,6 +21,10 @@ ol {
   padding-left: 0;
 }
 
+a {
+  text-decoration: none;
+}
+
 img {
   display: block;
 }
@@ -23,15 +32,6 @@ img {
 .list {
   list-style: none;
   display: flex;
-}
-
-.link {
-  text-decoration: none;
-}
-
-body {
-  font-family: "Roboto", sans-serif;
-  color: var(--main-text-color);
 }
 
 .container {
@@ -58,7 +58,6 @@ body {
 
 .social-networks {
   display: flex;
-  justify-content: space-between;
 }
 
 .social-networks .social-networks__item:not(:last-child) {
@@ -141,6 +140,7 @@ body {
 .navigation {
   display: flex;
   align-items: center;
+  margin-left: 90px;
 }
 
 .navigation__menu {
@@ -247,16 +247,12 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-  margin-right: 90px;
   letter-spacing: 0.03em;
   color: #000000;
 }
 
 .logo--secondary {
-  display: block;
-  margin-bottom: 20px;
   color: #ffffff;
-  margin-right: 0;
 }
 
 .logo__web {
@@ -319,7 +315,7 @@ body {
   position: relative;
 }
 
-.doing__container {
+.text-overlay {
   bottom: 0;
   left: 0;
   background-color: rgba(47, 48, 58, 0.8);
@@ -329,13 +325,18 @@ body {
   justify-content: center;
 }
 
-.doing__content {
+.text-overlay__text {
   font-size: 14px;
   line-height: 1.14;
   padding-top: 27px;
   padding-bottom: 27px;
   text-transform: uppercase;
   color: #ffffff;
+}
+
+.our-team {
+  margin-top: -30px;
+  margin-left: -30px;
 }
 
 .our-team__name {
@@ -545,6 +546,10 @@ body {
   padding-bottom: 60px;
 }
 
+.footer__content {
+  display: flex;
+}
+
 .footer-list {
   font-weight: 400;
   font-size: 14px;
@@ -570,19 +575,19 @@ body {
   color: #2196f3;
 }
 
-.footer-content {
-  display: flex;
-}
-
-.footer-content-address {
+.footer__address-content {
   margin-right: 70px;
 }
 
-.adress-color {
+.address {
+  margin-top: 20px;
+}
+
+.address-color {
   color: #ffffff;
 }
 
-.footer-title {
+.footer__title {
   text-transform: uppercase;
   margin-top: 12px;
   margin-bottom: 20px;
@@ -594,7 +599,7 @@ body {
   line-height: 1.14;
 }
 
-.footer-form {
+.footer__form {
   margin-left: auto;
 }
 
@@ -765,9 +770,10 @@ body {
 
 .conditions {
   color: #2196f3;
+  text-decoration: underline;
 }
 
-.mait-title {
+.main-title {
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
