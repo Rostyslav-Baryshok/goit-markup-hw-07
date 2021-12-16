@@ -12,3 +12,12 @@
     1px 0px 1px rgba(0, 0, 0, 0.14);
   border-radius: 4px;
 }
+.modal__title {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.15;
+  text-align: center;
+  letter-spacing: 0.03em;
+  margin-bottom: 12px;
+  color: $secondary-text-color;
+}

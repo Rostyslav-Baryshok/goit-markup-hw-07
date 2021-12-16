@@ -16,7 +16,7 @@
   display: inline-flex;
   align-items: center;
 }
-.primary-button--icon {
+.primary-button__icon {
   fill: currentColor;
   margin-left: 10px;
 }
@@ -42,7 +42,7 @@
   }
 }
 .close-button {
-  @include position();
+  @extend %position;
   position: absolute;
   width: 30px;
   height: 30px;

@@ -17,7 +17,7 @@
   background-color: $our-tea-background;
 }
 .feature__title {
-  @extend %type-text;
+  @extend %base-font-size;
   font-weight: 700;
   letter-spacing: 0.03em;
   margin-bottom: 10px;
@@ -25,7 +25,7 @@
   color: $secondary-text-color;
 }
 .feature__description {
-  @include mass-and-color(400, $main-text-color);
+  @include text(400, $main-text-color);
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;

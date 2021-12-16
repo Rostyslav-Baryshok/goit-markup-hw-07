@@ -5,7 +5,7 @@
   align-items: center;
 }
 .checkbox-fild__label {
-  @include position();
+  @extend %position;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;

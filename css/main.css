@@ -59,7 +59,7 @@ address {
   overflow: hidden;
 }
 
-.navigation__link, .contact-list__link, .feature__title, .text-overlay__text, .footer__title {
+.navigation__link, .contact-list__link, .feature__title, .doing__text, .footer__title {
   font-size: 14px;
   line-height: 1.14;
 }
@@ -68,6 +68,11 @@ address {
   cursor: pointer;
   border: none;
   border-radius: 4px;
+}
+
+.social-networks__link, .navigation, .navigation__menu, .navigation__item:not(:last-child), .contact-list, .contact-list__link, .header__container, .close-button, .checkbox-fild__label {
+  display: flex;
+  align-items: center;
 }
 
 .social-networks {
@@ -79,8 +84,6 @@ address {
 }
 
 .social-networks__link {
-  display: flex;
-  align-items: center;
   justify-content: center;
   width: 44px;
   height: 44px;
@@ -104,19 +107,10 @@ address {
 }
 
 .navigation {
-  display: flex;
-  align-items: center;
   margin-left: 90px;
 }
 
-.navigation__menu {
-  display: flex;
-  align-items: center;
-}
-
 .navigation__item:not(:last-child) {
-  display: flex;
-  align-items: center;
   margin-right: 50px;
 }
 
@@ -154,8 +148,6 @@ address {
 }
 
 .contact-list {
-  display: flex;
-  align-items: center;
   margin-left: auto;
 }
 
@@ -164,8 +156,6 @@ address {
 }
 
 .contact-list__link {
-  display: flex;
-  align-items: center;
   font-weight: 500;
   letter-spacing: 0.02em;
   color: #757575;
@@ -222,11 +212,6 @@ address {
   border-bottom: 1px solid #ececec;
 }
 
-.header__container {
-  display: flex;
-  align-items: center;
-}
-
 .hero {
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero/hero-img.jpg);
   background-color: #2f303a;
@@ -267,13 +252,13 @@ address {
   color: #2196f3;
 }
 
-.our-clients {
-  display: flex;
-}
-
 .our-clients-section {
   padding-top: 94px;
   padding-bottom: 94px;
+}
+
+.our-clients {
+  display: flex;
 }
 
 .our-clients__item:not(:last-child) {
@@ -327,7 +312,7 @@ address {
   position: relative;
 }
 
-.text-overlay {
+.doing__text-overlay {
   bottom: 0;
   left: 0;
   background-color: rgba(47, 48, 58, 0.8);
@@ -337,7 +322,7 @@ address {
   justify-content: center;
 }
 
-.text-overlay__text {
+.doing__text {
   padding-top: 27px;
   padding-bottom: 27px;
   text-transform: uppercase;
@@ -410,7 +395,7 @@ address {
   align-items: center;
 }
 
-.primary-button--icon {
+.primary-button__icon {
   fill: currentColor;
   margin-left: 10px;
 }
@@ -434,8 +419,6 @@ address {
 }
 
 .close-button {
-  display: flex;
-  align-items: center;
   position: absolute;
   width: 30px;
   height: 30px;
@@ -596,8 +579,7 @@ address {
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.subscribe .subscribe__input:hover,
-.subscribe .subscribe__input:focus {
+.subscribe__input:hover, .subscribe__input:focus {
   border: 1px solid #2196f3;
 }
 
@@ -615,15 +597,6 @@ address {
   border-radius: 4px;
 }
 
-.main-title {
-  font-size: 36px;
-  line-height: 1.16;
-  text-align: center;
-  letter-spacing: 0.03em;
-  margin-bottom: 50px;
-  color: #212121;
-}
-
 .modal__title {
   font-weight: 700;
   font-size: 20px;
@@ -631,6 +604,15 @@ address {
   text-align: center;
   letter-spacing: 0.03em;
   margin-bottom: 12px;
+  color: #212121;
+}
+
+.main-title {
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  margin-bottom: 50px;
   color: #212121;
 }
 
@@ -680,8 +662,6 @@ address {
 }
 
 .checkbox-fild__label {
-  display: flex;
-  align-items: center;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;

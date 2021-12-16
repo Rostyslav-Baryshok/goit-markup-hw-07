@@ -1,9 +1,9 @@
-.our-clients {
-  display: flex;
-}
 .our-clients-section {
   padding-top: 94px;
   padding-bottom: 94px;
+}
+.our-clients {
+  display: flex;
 }
 .our-clients__item:not(:last-child) {
   margin-right: 30px;

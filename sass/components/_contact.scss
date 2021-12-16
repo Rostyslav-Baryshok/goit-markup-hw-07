@@ -1,13 +1,13 @@
 .contact-list {
-  @include position();
+  @extend %position;
   margin-left: auto;
 }
 .contact-list__item:not(:last-child) {
   margin-right: 30px;
 }
 .contact-list__link {
-  @extend %type-text;
-  @include position();
+  @extend %base-font-size;
+  @extend %position;
   font-weight: 500;
   letter-spacing: 0.02em;
   color: $main-text-color;

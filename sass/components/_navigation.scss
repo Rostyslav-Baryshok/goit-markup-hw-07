@@ -1,16 +1,16 @@
 .navigation {
-  @include position();
+  @extend %position;
   margin-left: 90px;
 }
 .navigation__menu {
-  @include position();
+  @extend %position;
 }
 .navigation__item:not(:last-child) {
-  @include position();
+  @extend %position;
   margin-right: 50px;
 }
 .navigation__link {
-  @extend %type-text;
+  @extend %base-font-size;
   position: relative;
   font-weight: 500;
   padding-top: 32px;

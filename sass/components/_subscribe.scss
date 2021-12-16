@@ -14,8 +14,8 @@
   letter-spacing: 0.03em;
   transition: border-color 250ms $timing-function;
 
-  .subscribe &:hover,
-  .subscribe &:focus {
+  &:hover,
+  &:focus {
     border: 1px solid $accent-color;
   }
 }

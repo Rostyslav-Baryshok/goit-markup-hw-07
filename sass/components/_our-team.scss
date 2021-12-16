@@ -32,7 +32,7 @@
   border-radius: 0px 0px 4px 4px;
 }
 .our-team__profession {
-  @include mass-and-color(400, $main-text-color);
+  @include text(400, $main-text-color);
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
