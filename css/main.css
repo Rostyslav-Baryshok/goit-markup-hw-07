@@ -1,3 +1,19 @@
+.navigation__link, .contact-list__link, .feature__title, .doing__text, .footer__title {
+  font-size: 14px;
+  line-height: 1.14;
+}
+
+.primary-button, .secondary-button {
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+}
+
+.social-networks__link, .navigation, .navigation__menu, .navigation__item:not(:last-child), .contact-list, .contact-list__link, .header__container, .close-button, .checkbox-fild__label {
+  display: flex;
+  align-items: center;
+}
+
 body {
   font-family: "Roboto", sans-serif;
   color: var(--main-text-color);
@@ -57,22 +73,6 @@ address {
   height: 1px;
   width: 1px;
   overflow: hidden;
-}
-
-.navigation__link, .contact-list__link, .feature__title, .doing__text, .footer__title {
-  font-size: 14px;
-  line-height: 1.14;
-}
-
-.primary-button, .secondary-button {
-  cursor: pointer;
-  border: none;
-  border-radius: 4px;
-}
-
-.social-networks__link, .navigation, .navigation__menu, .navigation__item:not(:last-child), .contact-list, .contact-list__link, .header__container, .close-button, .checkbox-fild__label {
-  display: flex;
-  align-items: center;
 }
 
 .social-networks {
